@@ -2,13 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
+    
+    
     <title>Кваст</title>
     <link rel="stylesheet" href="site.css"></link>
   </head>
   <body>
     <header>
-      <div >
-        <img src="img/logo.png" class="logo" alt=" наш логотип">
+      <div>
+        <input type="checkbox" id="menuShowHide">
+        <label class="menu-bar" for="menuShowHide">
+          <span class="line"></span>
+        </label>
+        
+        <div class="logo">
+          <img src="img/logo.png"  alt=" наш логотип">
+        </div>
+        
         <div class="header-right">
           <a href="#" class="header-active">История</a>
           <a href="#" class="header-active">Производство</a>
@@ -39,7 +49,7 @@
               </table>
               <p>Ржаной хлеб, Вода, Солод, Соль</p>
             </div> 
-            <p >Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+            <p class="item-description">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
             <button class="detail" type="button" href="#">Подробнее</button>
             <button class="buy" type="button" href="#">Купить</button>
             <p class="price">150 Р.</p>
@@ -60,7 +70,7 @@
               </table>
               <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
             </div>
-            <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+            <p class="item-description">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
             <button class="detail" type="button" href="#">Подробнее</button>
             <button class="buy" type="button" href="#">Купить</button>
             <p class="price">90 Р.</p>
