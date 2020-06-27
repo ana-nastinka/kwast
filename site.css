@@ -320,6 +320,15 @@ h3 {
 }
 
 @media(max-width:768px) {
+
+    .second {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(247, 212, 148);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .pluses {
         padding-top: 10px;
         display: block;
@@ -330,6 +339,8 @@ h3 {
         text-align: left;
         border-bottom: 1px solid rgb(194, 189, 189);
         border-right: none;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .pluses .plus img{
@@ -340,6 +351,10 @@ h3 {
         border-right: none;
         float: none;
         border-bottom: none;
+    }
+
+    h3 {
+        margin-top: 0px;
     }
 }
 
