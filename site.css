@@ -371,7 +371,7 @@ h3 {
 }
 
 .third {
-    
+    display: block;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -397,7 +397,7 @@ h3 {
  }
 
  .third-item {
-     display: inline-block;
+     display: block;
      margin-right: 200px;
      margin-left: 200px;
      margin-bottom: 50px;
@@ -438,6 +438,8 @@ h3 {
     .third-item {
         margin-left: auto;
         margin-right: auto;
+        
+        margin-bottom: 20px;
        
     }
     .story-photos {
@@ -460,7 +462,6 @@ h3 {
 
 .fourth {
     
-    margin: 0px;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: rgb(218, 211, 197);
@@ -468,8 +469,7 @@ h3 {
     display: block;  
 }
 .fourth h2 {
-    margin-left: 200px;
-   
+    margin-left: 200px; 
 }
 
 .fourth p{
@@ -484,9 +484,7 @@ h3 {
 
 .fourth-image {
     display: inline-block;
-    margin-left: 90px;
-   
-    
+    margin-left: 90px;  
 }
 
 .fourth-text{
@@ -504,6 +502,7 @@ h3 {
 
 .fourth .button-read {
     margin-left: 200px;
+    margin-right: 300px;
     display: inline-block;
     border: 1px solid rgb(107, 106, 106);
     background-color: transparent;
@@ -519,13 +518,53 @@ h3 {
     text-decoration: none;
     color: black;
     display: inline-block;
-    float: right;
-    padding: 10px 15px;
+    padding: 10px 0px;
     text-transform: uppercase;
-    margin-right: 200px;
+    padding-left: 200px;
+}
+
+@media(max-width:768px) {
+    .fourth {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fourth h2 {
+        margin-left: auto; 
+    }
+
+    .fourth-image {
+        margin-left: auto; 
+        width: 30px;
+        height: 30px; 
+    }
+
+    .fourth .button-read {
+        margin-left: auto;
+        margin-right: 350px;
+        margin-bottom: 10px;
+    }
+
+    .fourth-item a {
+        padding-left: 0px;
+        float: none;
+    }
+
+    .fourth-text{
+    
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+
+
+
 }
 
 .fifth {
+    display: block;
     margin-top: 0px;
     padding-top: 80px;
     margin-left: auto;
