@@ -3,7 +3,7 @@
 body {
     display: block;
     margin: 0px;
-    /*min-width: 1200px;*/
+
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -379,9 +379,6 @@ h3 {
     width: 100%;
  }
  
-
-
- 
 .third-text {
      display: inline-block;
      height: 100%;
@@ -467,35 +464,46 @@ h3 {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: rgb(218, 211, 197);
-    width: 100%;   
+    width: 100%; 
+    display: block;  
 }
 .fourth h2 {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto ;
+    margin-left: 200px;
+   
 }
-.fourth-left {
+
+.fourth p{
+    display: inline-block; 
+    margin-top: 0px; 
+}
+
+.fourth-comments {
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.fourth-image {
     display: inline-block;
-    margin-left: 250px;
-    margin-right: 135px;
+    margin-left: 90px;
+   
     
 }
 
-.fourth-right{
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.fourth-text{
+    
+    margin-left: 60px;
+    margin-right: 200px;
     display: inline-block;
+    text-align: left;
 }
 
 .fourth-item{
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
     margin-top: 20px;
 }
 
-.fourth .read {
+.fourth .button-read {
+    margin-left: 200px;
     display: inline-block;
     border: 1px solid rgb(107, 106, 106);
     background-color: transparent;
@@ -514,6 +522,7 @@ h3 {
     float: right;
     padding: 10px 15px;
     text-transform: uppercase;
+    margin-right: 200px;
 }
 
 .fifth {
@@ -617,7 +626,7 @@ footer {
     height: 100%;
     padding-top: 80px;
     display: block;
-    min-width: 960px;   
+    
 }
 
 .footer-logo {
