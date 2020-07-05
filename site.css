@@ -529,6 +529,7 @@ h3 {
         padding-bottom: 30px;
         padding-left: 20px;
         padding-right: 20px;
+        box-sizing: border-box;
     }
 
     .fourth h2 {
@@ -542,14 +543,21 @@ h3 {
     }
 
     .fourth .button-read {
-        margin-left: auto;
-        margin-right: 350px;
+        
         margin-bottom: 10px;
+        min-width: 140px;
+        display: block;
+        width: auto;
+        margin: auto;
     }
 
     .fourth-item a {
-        padding-left: 0px;
         float: none;
+        display: block;
+        width: auto;
+        margin: auto;
+        padding-left: 0px;
+        text-align: center;
     }
 
     .fourth-text{
@@ -557,10 +565,6 @@ h3 {
         margin-left: 30px;
         margin-right: 20px;
     }
-
-
-
-
 }
 
 .fifth {
@@ -571,6 +575,9 @@ h3 {
     margin-right: auto;
     padding-bottom: 80px;
     width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
 }
 
 .fifth table{
@@ -606,6 +613,13 @@ h3 {
 
 .fifth table th:nth-last-child(1) {
     text-align: right;
+}
+
+@media(max-width:768px) {
+    .fifth {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 .sixth {
