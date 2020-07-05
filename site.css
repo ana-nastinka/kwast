@@ -17,6 +17,8 @@ header {
     display: block;
 }
 
+
+
 h1 {
     
     text-align: center;
@@ -378,24 +380,35 @@ h3 {
  }
  
 
- .story div:first-child{
-     margin-bottom: 40px;
- }
+
  
 .third-text {
      display: inline-block;
      height: 100%;
      width: 60%;
-     padding-right: 50px;
-     box-sizing: border-box;
+     margin-right: 130px;
+     vertical-align: top;
+     
+ }
+
+ .third h2 {
+    margin-left: 200px;
  }
 
  .third-text h3{
      margin-top: 0px;
  }
 
+ .third-item {
+     display: inline-block;
+     margin-right: 200px;
+     margin-left: 200px;
+     margin-bottom: 50px;
+     
+ }
+
 .story-photos {
-    float: right;
+    display: inline-block;
     text-align: right;
 }
 
@@ -424,6 +437,12 @@ h3 {
         width: 100%;
 
     }
+
+    .third-item {
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
     .story-photos {
         float: none;
         text-align: left;
@@ -431,6 +450,7 @@ h3 {
     .story h2 {
         font-size: 18px;
         margin-bottom: 25px;
+        margin-left: auto;
     }
     .story h3 {
         font-size: 16px;
@@ -439,12 +459,6 @@ h3 {
     .story div:first-child{
         margin-bottom: 20px;
     }
-    
-   
-
-
-
-
 }
 
 .fourth {
