@@ -744,7 +744,7 @@ footer {
 }
 
 .footer-media {
-    width: 1400px;
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-right: auto;
@@ -776,7 +776,7 @@ footer {
     border: 1px solid white;
     padding: 20px 25px;
     background-color: grey;
-    margin-left: 300px;
+    
   }
 
   .logo-item {
