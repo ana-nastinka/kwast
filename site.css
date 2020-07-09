@@ -241,10 +241,12 @@ p {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        border-left: none;
+        border-right: none;
        
     }
     .item img {
-        width: 200px;
+        width: 190px;
     }
 
     .first h2 {
@@ -270,7 +272,7 @@ p {
 }
 
 .item-right {
-    width: 150px;
+    width: auto;
     position: absolute;
     right: 60px;
     top: 70px;
