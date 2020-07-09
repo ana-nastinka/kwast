@@ -259,7 +259,7 @@ p {
 }
 
 .item-right table, td  {
-    width: 150px;
+    width: auto;
     border: 1px solid rgb(240, 238, 238);
     padding-left: 10px;
     padding-top: 10px;
