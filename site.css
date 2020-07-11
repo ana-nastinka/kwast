@@ -346,6 +346,7 @@ p {
 
     .first-detail-buy {
         text-align: right;
+        width: 100%;
     }
 
 }
