@@ -197,6 +197,20 @@ h2 {
     text-transform: uppercase;
     font-size: 25px;
     margin-bottom: 70px;
+    width: 50%;
+}
+
+.item h2 {
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.first-item-img {
+    width: 49%;
+    display: inline-block;
+    z-index: 1;
 }
 
 p {
@@ -210,6 +224,8 @@ p {
 .kinds {
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
+    display: block;
 }
 
 .item {
@@ -224,44 +240,19 @@ p {
     position: relative;
 }
 
-.kinds h2{
-    padding-left: 30px;
-}
 
 .item:nth-last-of-type(1){
     border-left: none;
     float: right;
 }
 
-@media(max-width: 768px)
-{
-    .item{
-        display: block;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        border-left: none;
-        border-right: none;
-       
-    }
-    .item img {
-        width: 190px;
-    }
-
-    .first h2 {
-        font-size: 18px;
-        margin-bottom: 25px;
-    }
-
-    .item:nth-last-of-type(1){
-        border-left: none;
-        float: none;
-    }
+.item table {
+    width: 100%;
 }
 
-.item-right table, td  {
-    width: auto;
+
+.item-right table, td {
+    
     border: 1px solid rgb(240, 238, 238);
     padding-left: 10px;
     padding-top: 10px;
@@ -269,14 +260,13 @@ p {
     padding-right: 20px;
     border-collapse: collapse;
     color: black;
+    text-align: center;
 }
 
 .item-right {
-    width: auto;
-    position: absolute;
-    right: 60px;
-    top: 70px;
-    left: 220px;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
     color: rgb(194, 189, 189);
 }
 .item-right p {
@@ -314,6 +304,33 @@ p {
 .price {
     display: inline-block;
     margin-left: 20px;
+}
+
+@media(max-width: 768px)
+{
+    .item{
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-left: none;
+        border-right: none;
+       
+    }
+    .item img {
+        width: 190px;
+    }
+
+    .first h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .item:nth-last-of-type(1){
+        border-left: none;
+        float: none;
+    }
 }
 
 
