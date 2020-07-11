@@ -193,16 +193,16 @@ h1 {
        
 }
 
-h2 {
+.kinds h2 {
     text-transform: uppercase;
     font-size: 25px;
     margin-bottom: 70px;
-    width: 50%;
+    width: 100%;
 }
 
 .item h2 {
     margin-bottom: 20px;
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
     margin-right: auto;
 }
@@ -273,6 +273,9 @@ p {
     font-size: 12px  ;
 }
 
+.first-detail-buy {
+    width: 100%;
+}
 .item .item-description{
     min-height: 75px;
 }
@@ -321,16 +324,30 @@ p {
     .item img {
         width: 190px;
     }
+    
+
+    .kinds {
+        width: 100%;
+    }
 
     .first h2 {
         font-size: 18px;
         margin-bottom: 25px;
+        text-align: center;
+    }
+    .item h2 {
+        text-align: left;
     }
 
     .item:nth-last-of-type(1){
         border-left: none;
         float: none;
     }
+
+    .first-detail-buy {
+        text-align: right;
+    }
+
 }
 
 
@@ -354,10 +371,7 @@ p {
     border-right: 1px solid rgb(194, 189, 189);
     height: 100%;
     width: 33%;
-    
-
     box-sizing: border-box;
-   
     text-align: left;
 }
 
