@@ -41,6 +41,7 @@ h1 {
     width: 200px;
     height: 100px;
     vertical-align: middle;
+    margin-right: 60px;
 }
 
 .logo {
@@ -128,7 +129,6 @@ h1 {
     padding-top: 25px;
     padding-bottom: 25px;
     font-weight: bold;
-    margin-left: 60px;
     margin-right: auto;
     margin-top: 10px;
 }
@@ -195,7 +195,7 @@ h1 {
 
 .kinds h2 {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 70px;
     width: 100%;
 }
@@ -214,7 +214,7 @@ h1 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.8;
     color:  rgb(107, 106, 106);
     
@@ -224,7 +224,7 @@ p {
 .kinds {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 70%;
     display: block;
 }
 
@@ -270,7 +270,7 @@ p {
     color: rgb(194, 189, 189);
 }
 .item-right p {
-    font-size: 12px  ;
+    font-size: 15px  ;
 }
 
 .first-detail-buy {
@@ -367,6 +367,7 @@ p {
 .plus-text {
     width: 50%;
     margin: auto;
+    font-size: 20px;
 }
 
 .pluses {
@@ -454,10 +455,13 @@ h3 {
     width: 85%;
     margin-left: auto;
     margin-left: auto;
+    font-size: 35px;
+    text-transform: uppercase;
  }
 
  .third-text h3{
      margin-top: 0px;
+     font-size: 20px;
  }
 
  .third-item {
@@ -477,6 +481,10 @@ h3 {
 .story-photos p{
     margin-top: 0px;
     margin-bottom: 25px;
+}
+
+.story-photos a {
+    color: rgb(122, 74, 39);
 }
 
 @media(max-width:768px) {
@@ -535,7 +543,11 @@ h3 {
     display: block;  
 }
 .fourth h2 {
-    margin-left: 200px; 
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto; 
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 .fourth p{
@@ -544,40 +556,46 @@ h3 {
 }
 
 .fourth-comments {
-    display: inline-flex;
+    width: 100%;
+    
     vertical-align: top;
+    box-sizing: border-box;
 }
 
 .fourth-image {
     display: inline-block;
-    margin-left: 90px;  
+    width: 14%;  
+    text-align: center;
 }
 
 .fourth-text{
     
-    margin-left: 60px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
     text-align: left;
+    width: 70%;
 }
 
 .fourth-item{
     display: block;
     margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fourth .button-read {
-    margin-left: 200px;
-    margin-right: 300px;
     display: inline-block;
     border: 1px solid rgb(107, 106, 106);
     background-color: transparent;
     color: rgb(172, 169, 169);
     text-transform: uppercase;
-    padding: 10px 15px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .fourth-item a {
@@ -586,7 +604,9 @@ h3 {
     display: inline-block;
     padding: 10px 0px;
     text-transform: uppercase;
-    padding-left: 200px;
+ 
+    font-size: 20px;
+    float: right;
 }
 
 @media(max-width:768px) {
@@ -641,11 +661,15 @@ h3 {
     margin-right: auto;
     padding-bottom: 80px;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
     box-sizing: border-box;
 }
-
+.fifth h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
 .fifth table{
     width: 70%;
     border-collapse: collapse; 
@@ -654,20 +678,29 @@ h3 {
 
 }
 
+.fifth .blacktext {
+    color: black;
+}
+
+.fifth td {
+    color: rgb(151, 147, 147);
+}
+
 .fifth th, .fifth td {
     border: none;
     border-bottom: 1px solid rgb(240, 238, 238);
     height: 40px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
     padding-left: 0;
+    white-space: nowrap;
 }
 
 .fifth th {
     vertical-align: top;
-    color: rgb(206, 201, 201);
-    font-size: 11px;
+    color: rgb(190, 187, 187);
+    font-size: 13px;
     font-weight: normal;
 }
 
@@ -685,14 +718,15 @@ h3 {
 
 @media(max-width:768px) {
     .fifth {
-        padding-top: 30px;
-        padding-bottom: 30px;
+       padding-left: 20px;
+       padding-right: 20px;
+       box-sizing: border-box;
+        
     }
     .fifth table{
         width: 100%;
         border-collapse: collapse; 
-        margin-left: 0px;
-        margin-right: 20px;
+        
     
     }
 }
@@ -704,9 +738,12 @@ h3 {
     background-color: rgb(247, 212, 148);
     width: 100%;  
 }
-
+.sixth h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
 .sixth-item{
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -718,7 +755,7 @@ h3 {
 form label {
     text-transform: uppercase;
     margin: 10px 0 10px;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
     display: block;
     clear: both;
@@ -729,7 +766,8 @@ form input, form textarea, form select {
     background-color: rgb(236, 191, 108);
     border: none;
     margin: 10px 0 20px;
-    height: 40px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 .first-number {
     float: left;
@@ -745,8 +783,19 @@ form input, form textarea, form select {
     background-color: rgb(122, 74, 39);
     text-transform: uppercase;
     color: white;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
+    
+}
+
+.agree label {
+    display: inline-block;
+    vertical-align: unset;
+}
+
+.agree #agree {
+    display: inline-block;
+    width: 5%;
 }
 
 @media (max-width:768px) {
@@ -793,6 +842,7 @@ footer {
     width: 200px;
     height: 100px;
     vertical-align: middle;
+    margin-right: 60px;
 }
 
 .logo {
@@ -808,7 +858,6 @@ footer {
     padding-top: 25px;
     padding-bottom: 25px;
     font-weight: bold;
-    margin-left: 60px;
     margin-right: auto;
     margin-top: 10px;
 }
