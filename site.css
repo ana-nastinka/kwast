@@ -730,6 +730,10 @@ h3 {
         margin-right: auto;
     
     }
+
+    .fifth th, .fifth td {
+        font-size:10px;
+    }
 }
 
 .sixth {
