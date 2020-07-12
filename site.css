@@ -726,7 +726,8 @@ h3 {
     .fifth table{
         width: 100%;
         border-collapse: collapse; 
-        
+        margin-left: auto;
+        margin-right: auto;
     
     }
 }
