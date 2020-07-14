@@ -395,6 +395,16 @@
         margin-right: auto;
     }
 
+    .footer-media-1 {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+       
+    
+
     .logo {
         display: block;
     }
@@ -418,6 +428,43 @@
         display: none;
         position: absolute;
     }
+
+    .media {
+        display: inline-block;
+        border: none;
+        padding: 0px;
+        background-color: transparent;
+    }
+    .develop-logo {
+        display: inline-block;
+        border: none;
+        padding: 0px;
+        background-color: transparent;
+        
+    }
+
+    .footer-text {
+        display: block;
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+          
+    }
+
+    .logo-item {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+       
+       
+        text-align: center;
+        
+      }
+
+
 
    
 }
